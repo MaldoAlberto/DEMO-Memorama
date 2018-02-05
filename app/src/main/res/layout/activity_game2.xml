@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alberto.smallb.Game2">
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fondo"
+        android:columnWidth="80dp"
+        android:gravity="center_vertical|center_horizontal"
+
+        android:horizontalSpacing="2dp"
+        android:numColumns="auto_fit"
+        android:paddingBottom="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp"
+        android:stretchMode="none"
+        android:verticalSpacing="2dp" />
+</android.support.constraint.ConstraintLayout>
